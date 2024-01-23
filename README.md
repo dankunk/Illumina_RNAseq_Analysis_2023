@@ -4,7 +4,7 @@ Scripts for running RNA seq analysis on paired end Illumina .fq sequences. These
 
 ### The directory structure for the server or computer where these scripts should run is:
 
-### geneome-
+### genome-
 A folder containing the organisms genome file in fasta format (.fa/.fasta) and the organisms reference file (GTF/GFF).
 
 Towards the end of the pipeline, this folder will also contain the final transcriptome assembly which will be created with gffread. A index of the initial genome   fasta will be produced during this step. This can be done by running the gff_to_fasta.sbatch script. 
